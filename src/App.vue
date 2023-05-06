@@ -26,7 +26,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-let index = ref(1)
+let index = ref(0)
 const to = ((e: any) => index.value = e)
 
 
@@ -50,7 +50,7 @@ const to = ((e: any) => index.value = e)
             margin: 0 14px;
 
             a:hover {
-                color: #41e8d7;
+                color: #41e8d7 !important;
             }
         }
     }
@@ -62,7 +62,7 @@ const to = ((e: any) => index.value = e)
     background-color: rgba($color: #000000, $alpha: .7) !important;
 
     a {
-        color: #41e8d7;
+        color: #41e8d7 !important;
     }
 
 }

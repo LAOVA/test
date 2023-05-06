@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, ref } from 'vue'
+import { ref } from 'vue'
 const props = defineProps(["title"])
 const title = ref(props.title)
 </script>
@@ -19,7 +19,7 @@ const title = ref(props.title)
   height: auto;
   width: 100%;
   margin-top: 10px;
-  padding: 14px 0;
+  padding: 14px 0 0;
   box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, 0.1);
 
   .tittle {

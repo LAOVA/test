@@ -16,7 +16,7 @@
 
 a {
     font-weight: 500;
-    color: #fff;
+    color: #fff!important;
     text-decoration: inherit;
     font-size: 22px;
 }
